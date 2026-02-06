@@ -1,1 +1,1 @@
-from .tlb6700 import list_devices, NewportUSB, TLB6700
+from .tlb6700 import TLB6700, NewportUSB, list_devices
