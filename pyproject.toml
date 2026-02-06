@@ -3,7 +3,7 @@ requires = ["setuptools>=62.0", "setuptools-git-versioning>=2.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tlb6700"
+name = "newport-tlb6700"
 dynamic=['version', 'dependencies']
 authors = [
   { name="Jamie", email="jamie.k.eckstein@gmail.com" },
@@ -11,7 +11,7 @@ authors = [
 maintainers = [
   { name="Jamie", email="jamie.k.eckstein@gmail.com" },
 ]
-description = "Unofficial Newport TLB6700 Python Driver"
+description = "Unofficial Newport Velocity TLB6700 tunable laser python driver"
 keywords = ['tunable laser driver']
 readme = "README.rst"
 requires-python = ">=3.7, <3.14"
@@ -37,8 +37,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/xkstein/tlb6700/"
-Issues = "https://github.com/xkstein/tlb6700/issues/"
+Homepage = "https://github.com/xkstein/newport-tlb6700/"
+Issues = "https://github.com/xkstein/newport-tlb6700/issues/"
 
 [tool.setuptools-git-versioning]
 enabled = true
@@ -53,7 +53,7 @@ exclude = []  # exclude packages matching these glob patterns (empty by default)
 namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
 
 [project.scripts]
-tlb6700 = "tlb6700.app:main"
+newport-tlb6700 = "newport_tlb6700.app:main"
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements/pip.txt"]}

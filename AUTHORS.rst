@@ -7,4 +7,4 @@ Contributors
 ------------
 
 For a list of contributors, visit
-https://github.com/xkstein/tlb6700/graphs/contributors
+https://github.com/xkstein/newport-tlb6700/graphs/contributors

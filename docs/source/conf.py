@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-# tlb6700 documentation build configuration file, created by  # noqa: E501
+# newport-tlb6700 documentation build configuration file, created by  # noqa: E501
 # sphinx-quickstart on Thu Jan 30 15:49:41 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -20,7 +20,7 @@ from pathlib import Path
 
 # Attempt to import the version dynamically from GitHub tag.
 try:
-    fullversion = version("tlb6700")
+    fullversion = version("newport_tlb6700")
 except Exception:
     fullversion = "No version found. The correct version will appear in the released version."  # noqa: E501
 
@@ -68,8 +68,8 @@ source_suffix = [".rst", ".md"]
 master_doc = "index"
 
 # General information about the project.
-project = "tlb6700"
-copyright = "%Y, No one"
+project = "newport-tlb6700"
+copyright = "%Y, no one"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -122,7 +122,7 @@ exclude_patterns = ["build"]
 pygments_style = "sphinx"
 
 # A list of ignored prefixes for module index sorting.
-modindex_common_prefix = ["tlb6700"]
+modindex_common_prefix = ["newport-tlb6700"]
 
 # Display all warnings for missing links.
 nitpicky = True
@@ -137,7 +137,7 @@ html_theme = "sphinx_rtd_theme"
 html_context = {
     "display_github": True,
     "github_user": "xkstein",
-    "github_repo": "tlb6700",
+    "github_repo": "newport-tlb6700",
     "github_version": "main",
     "conf_py_path": "/docs/source/",
 }
@@ -221,7 +221,7 @@ html_theme_options = {
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-basename = "tlb6700".replace(" ", "").replace(".", "")
+basename = "newport-tlb6700".replace(" ", "").replace(".", "")
 htmlhelp_basename = basename + "doc"
 
 
@@ -242,8 +242,8 @@ latex_elements = {
 latex_documents = [
     (
         "index",
-        "tlb6700.tex",
-        "tlb6700 Documentation",
+        "newport-tlb6700.tex",
+        "newport-tlb6700 Documentation",
         ab_authors,
         "manual",
     ),
@@ -277,8 +277,8 @@ latex_documents = [
 man_pages = [
     (
         "index",
-        "tlb6700",
-        "tlb6700 Documentation",
+        "newport-tlb6700",
+        "newport-tlb6700 Documentation",
         ab_authors,
         1,
     )
@@ -296,10 +296,10 @@ man_pages = [
 texinfo_documents = [
     (
         "index",
-        "tlb6700",
-        "tlb6700 Documentation",
+        "newport-tlb6700",
+        "newport-tlb6700 Documentation",
         ab_authors,
-        "tlb6700",
+        "newport-tlb6700",
         "One line description of project.",
         "Miscellaneous",
     ),

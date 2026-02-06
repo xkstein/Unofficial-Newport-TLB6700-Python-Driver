@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from tlb6700 import functions  # noqa
+from newport_tlb6700 import functions  # noqa
 
 
 def test_dot_product_2D_list():
